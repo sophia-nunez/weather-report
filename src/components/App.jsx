@@ -1,4 +1,5 @@
-import './App.css'
+import '../styles/App.css'
+import forecastData from '../data/data.js'
 
 import SearchForm from './SearchForm'
 import Forecast from './Forecast'
@@ -12,7 +13,7 @@ function App() {
         <SearchForm></SearchForm>
       </header>
       <main>
-        <Forecast></Forecast>
+        <Forecast data={forecastData}></Forecast>
       </main>
     </div>
   )

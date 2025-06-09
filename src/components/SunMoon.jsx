@@ -1,5 +1,5 @@
 import PropTypes from "prop-types";
-import './sunMoon.css'
+import '../styles/sunMoon.css'
 
 const SunMoon = ({sunset, sunrise}) => {
 
