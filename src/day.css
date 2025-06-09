@@ -1,0 +1,36 @@
+.dayCard {
+    padding: 10px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 350px;
+    height: fit-content;
+    box-shadow: 0px 2px 2px 1px rgb(128, 128, 128, 0.2);
+
+}
+
+.cold {
+    box-shadow: 0px 2px 2px 1px rgba(112, 146, 255, 0.6);
+
+    .temp {
+        color: rgb(3, 44, 177);
+    }
+}
+
+.hot {
+    box-shadow: 0px 2px 2px 1px rgba(255, 160, 112, 0.6);
+
+    .temp {
+        color: rgb(220, 29, 0);
+    }
+}
+
+.dayCard:hover {
+    background-color: rgb(229, 228, 228);
+    box-shadow: 0px 1px 3px 1px rgb(128, 128, 128, 0.4);
+    transform: scale(1.05);
+}
+
+p {
+    font-size: large;
+}
